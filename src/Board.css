@@ -1,0 +1,61 @@
+.Board {
+  margin: 0 auto;
+  border-radius: 10px;
+  /* box-shadow: 10px 10px 0 red; */
+
+}
+
+
+
+@font-face {
+  font-family: 'KosanNonCommercial';
+  src: url('https://befonts.com/wp-content/uploads/2021/09/kosannoncommercial.otf')
+}
+
+.Board-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.lights {
+  font-family: 'KosanNonCommercial';
+  color: white;
+  font-size: 80px;
+
+  animation: lights 3s infinite alternate;
+
+}
+
+.out {
+  font-family: 'KosanNonCommercial';
+  color: black;
+  font-size: 80px;
+;
+  animation: out 3s infinite alternate;
+
+}
+
+
+
+@keyframes lights {
+  0% {
+    color: black;
+  }
+  100% {
+
+    color: white;
+  }
+
+}
+
+@keyframes out {
+  0% {
+
+    color: white;
+  }
+  100% {
+
+    color: black;
+  }
+}
